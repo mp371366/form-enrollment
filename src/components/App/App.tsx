@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Cookies from '../Cookies/Cookies';
 import Home from '../Home/Home';
+import NoMatch from '../NoMatch/NoMatch';
 
 export default function App() {
   return (
@@ -27,8 +28,11 @@ export default function App() {
             <Route path="/cookie">
               <Cookies />
             </Route>
-            <Route path="/">
+            <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="*">
+              <NoMatch />
             </Route>
           </Switch>
         </main>
