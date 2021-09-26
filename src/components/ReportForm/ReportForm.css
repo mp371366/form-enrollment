@@ -9,8 +9,8 @@
   width: 400px;
   font-size: 20px;
   margin: 5px 0;
-  background-color: rgb(71, 71, 71);
-  color: white;
+  background-color: var(--snd-bg-color);
+  color: var(--font-color);
   border: 0;
 }
 

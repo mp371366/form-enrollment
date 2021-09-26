@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: white;
+  background-color: var(--main-bg-color);
+  color: var(--font-color);
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
 }
@@ -12,7 +12,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
+  padding: 0 10px;
 }
 
 .App-header>ul {
@@ -37,4 +39,17 @@
   justify-content: center;
   margin: 0px 10% 0 10%;
   box-sizing: border-box;
+}
+
+.App-theme-button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+  background-color: var(--main-bg-color);
+  color: var(--font-color);
+}
+
+.App-theme-button:hover {
+  cursor: pointer;
 }
