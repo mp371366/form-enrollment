@@ -1,0 +1,27 @@
+.ReportForm-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.ReportForm-form>input, .ReportForm-form>textarea {
+  width: 400px;
+  font-size: 20px;
+  margin: 5px 0;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  border: 0;
+}
+
+.ReportForm-form>input {
+  height: 30px;
+}
+
+.ReportForm-form>textarea {
+  height: 230px;
+}
+
+.ReportForm-form>input[type=submit]:hover {
+  cursor: pointer;
+}

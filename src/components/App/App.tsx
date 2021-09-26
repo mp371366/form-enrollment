@@ -8,6 +8,7 @@ import {
 import Cookies from '../Cookies/Cookies';
 import Home from '../Home/Home';
 import NoMatch from '../NoMatch/NoMatch';
+import ReportForm from '../ReportForm/ReportForm';
 
 export default function App() {
   return (
@@ -16,10 +17,10 @@ export default function App() {
         <nav className="App-header">
           <ul>
             <li>
-              <Link className="App-link" to="/">Home</Link>
+              <Link className="link" to="/">Home</Link>
             </li>
             <li>
-              <Link className="App-link" to="/cookie">Cookies policy</Link>
+              <Link className="link" to="/cookie">Cookies policy</Link>
             </li>
           </ul>
         </nav>
@@ -27,6 +28,9 @@ export default function App() {
           <Switch>
             <Route path="/cookie">
               <Cookies />
+            </Route>
+            <Route path="/department/:name">
+              <ReportForm />
             </Route>
             <Route path="/" exact>
               <Home />
