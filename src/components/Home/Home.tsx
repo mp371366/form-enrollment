@@ -1,5 +1,6 @@
 import DepartmentList from "../DepartmentsList/DepartmentsList";
 import { Department } from "../DepartmentsList/Department";
+import "./Home.css";
 
 const departments: Array<Department> = [
   {
