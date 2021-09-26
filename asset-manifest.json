@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mp371366/form-enrollment/static/css/main.29898fb6.chunk.css",
-    "main.js": "/mp371366/form-enrollment/static/js/main.616aaeee.chunk.js",
-    "main.js.map": "/mp371366/form-enrollment/static/js/main.616aaeee.chunk.js.map",
-    "runtime-main.js": "/mp371366/form-enrollment/static/js/runtime-main.e0da2e85.js",
-    "runtime-main.js.map": "/mp371366/form-enrollment/static/js/runtime-main.e0da2e85.js.map",
-    "static/js/2.991c1f45.chunk.js": "/mp371366/form-enrollment/static/js/2.991c1f45.chunk.js",
-    "static/js/2.991c1f45.chunk.js.map": "/mp371366/form-enrollment/static/js/2.991c1f45.chunk.js.map",
-    "index.html": "/mp371366/form-enrollment/index.html",
-    "static/css/main.29898fb6.chunk.css.map": "/mp371366/form-enrollment/static/css/main.29898fb6.chunk.css.map",
-    "static/js/2.991c1f45.chunk.js.LICENSE.txt": "/mp371366/form-enrollment/static/js/2.991c1f45.chunk.js.LICENSE.txt"
+    "main.css": "/form-enrollment/static/css/main.29898fb6.chunk.css",
+    "main.js": "/form-enrollment/static/js/main.616aaeee.chunk.js",
+    "main.js.map": "/form-enrollment/static/js/main.616aaeee.chunk.js.map",
+    "runtime-main.js": "/form-enrollment/static/js/runtime-main.8642f4c8.js",
+    "runtime-main.js.map": "/form-enrollment/static/js/runtime-main.8642f4c8.js.map",
+    "static/js/2.991c1f45.chunk.js": "/form-enrollment/static/js/2.991c1f45.chunk.js",
+    "static/js/2.991c1f45.chunk.js.map": "/form-enrollment/static/js/2.991c1f45.chunk.js.map",
+    "index.html": "/form-enrollment/index.html",
+    "static/css/main.29898fb6.chunk.css.map": "/form-enrollment/static/css/main.29898fb6.chunk.css.map",
+    "static/js/2.991c1f45.chunk.js.LICENSE.txt": "/form-enrollment/static/js/2.991c1f45.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0da2e85.js",
+    "static/js/runtime-main.8642f4c8.js",
     "static/js/2.991c1f45.chunk.js",
     "static/css/main.29898fb6.chunk.css",
     "static/js/main.616aaeee.chunk.js"
